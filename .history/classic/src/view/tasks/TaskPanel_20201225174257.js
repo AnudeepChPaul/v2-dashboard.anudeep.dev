@@ -1,0 +1,56 @@
+Ext.define("Dashboard.view.tasks.TaskPanel", {
+  extend: "Ext.grid.Panel",
+  xtype: "dash-taskpanel",
+
+  weight: '100%',
+  height: '100%',
+
+  split: true,
+  title: 'To Do',
+  height: '33%',
+  width: '33%',
+  store: {
+    autoLoad: true,
+    autoRefresh: true,
+    idProperty: 'id',
+    data: []
+  },
+
+  columns: [{
+    dataIndex: 'title',
+    flex: 1,
+    renderer: function (value, metaData, record, recordIndex) {
+      metaData.tdAttr = `record-id=${recordIndex}`
+      return value;
+    }
+  }],
+
+  getDragRecordId: function (e) {
+    var sourceEl = e.getTarget(this.itemSelector, 10);
+    return Number(sourceEl.getAttribute('record-id') || sourceEl.parentElement.getAttribute('record-id'))
+  },
+
+  listeners: {
+    beforerender: function (scope) {
+      scope.store.loadData([{
+        title: 'Some task title' + parseInt(Math.random() * 100000),
+        type: 'story',
+        description: 'task description',
+        currentState: 0, // todo,
+        id: parseInt(Math.random() * 100000)
+      }, {
+        title: 'Some task title 2' + parseInt(Math.random() * 100000),
+        type: 'story',
+        description: 'task description 2',
+        currentState: 1, // progress,
+        id: parseInt(Math.random() * 100000)
+      }, {
+        title: 'Some task title 3' + parseInt(Math.random() * 100000),
+        type: 'story',
+        description: 'task description 3',
+        currentState: 2, // done,
+        id: parseInt(Math.random() * 100000)
+      }])
+    }
+  }
+});

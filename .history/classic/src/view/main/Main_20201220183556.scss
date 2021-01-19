@@ -1,0 +1,34 @@
+$dash-base-color: "#404040";
+
+$panel-body-background-color: $dash-base-color;
+
+.x-title-icon-matte {
+  font-family: "Font Awesome 5 Free";
+  color: #fff;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.x-tab-icon-el-matte {
+  font-family: "Font Awesome 5 Free";
+  color: #acacac;
+
+  .x-tab-over & {
+    color: #c4c4c4;
+  }
+
+  .x-tab-active & {
+    color: #fff;
+  }
+}
+
+.x-panel-header-title-matte > .x-title-text-matte:after {
+  top: 30px;
+  right: -24px;
+}
+
+.dash-notification-record {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}

@@ -1,0 +1,6 @@
+.#{$prefix}boundlist-item-over,
+.#{$prefix}boundlist-selected {
+  color: $base-inverted;
+  background-color: $neutral-light-color;
+  border-color: $neutral-light-color;
+}

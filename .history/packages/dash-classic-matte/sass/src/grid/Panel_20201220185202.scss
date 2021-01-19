@@ -1,0 +1,11 @@
+.#{$prefix}grid-body {
+  border-width: 1px 1px 1px;
+}
+
+.#{$prefix}keyboard-mode {
+  .#{$prefix}grid-item-focused {
+    .#{$prefix}grid-cell-inner:before {
+      border: 1px solid transparent;
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "name": "froala-editor",
+  "namespace": "Ext",
+  "format": "1",
+  "version": "7.3.0.55",
+  "creator": "Sencha",
+  "summary": "Sencha Froala Editor",
+  "detailedDescription": "Sencha Froala Editor is a package that provides a rich editor component built on top of Froala Editor.",
+  "type": "code",
+  "requires": [
+    "core"
+  ],
+  "signatures": [
+    {
+      "name": "Sencha",
+      "uuid": "1d6b0d9c-3333-4e65-885f-5b07a1fc3198",
+      "created": "2020-09-07T17:55:32Z",
+      "algorithm": "SHA1withRSA",
+      "nonce": "9DcIgDM3Ouc\u003d",
+      "signature": "Rq6TBimLrj/YZQB1UI7RVmklsCQ2RI//4jGCkMzHeKdPH0o4TwBHqsodMUH1VG7a2lLKWH7eDou7KtbE29jkEYCgjeRMz5rwvQZElZklejbW1DWSWfMlDn6QSZorzrUcmwPGwKH4/UPkGOIRhRRO2yEloIY9DfSSpWsI+U/x50hDAX5tLMKLv/+JkZHtt0fcAWoBlxIWF6RSdTpINftK0S+2o8H0029ef4CxCu/NgyL1qobrrxpgC96cZ/ixjahPBO82gX2mFag7A8DrRnw30hjbfxyz7N7MJZml0n73drPE7tMPwlZEId73Oljrgya/Sy0Yg8Dnmihj7JM4kfwc4w\u003d\u003d"
+    }
+  ],
+  "js": [
+    {
+      "path": "froalaeditor.pkgd.js",
+      "includeInBundle": true,
+      "requiresSdk": false,
+      "compress": false
+    }
+  ],
+  "css": [
+    {
+      "path": "froalaeditor.pkgd.css",
+      "compress": false
+    }
+  ],
+  "resources": [
+    {
+      "path": "resources"
+    }
+  ],
+  "builds": {
+    "modern-triton": {
+      "theme": "theme-triton"
+    },
+    "modern-neptune": {
+      "theme": "theme-neptune"
+    },
+    "ios": {
+      "theme": "theme-ios"
+    },
+    "material": {
+      "theme": "theme-material"
+    }
+  },
+  "framework": "ext",
+  "toolkit": "modern",
+  "sass": {
+    "namespace": "Ext",
+    "etc": [
+      "${package.dir}/sass/etc/all.scss"
+    ],
+    "var": [
+      "${package.dir}/sass/var"
+    ],
+    "src": [
+      "${package.dir}/sass/src"
+    ]
+  },
+  "output": {
+    "base": "${package.dir}/build",
+    "js": "..",
+    "sass": ""
+  },
+  "classpath": [
+    "${package.lib}",
+    "${package.dir}/src",
+    "${package.dir}/${toolkit.name}/src"
+  ],
+  "overrides": [
+    "${package.dir}/overrides"
+  ]
+}

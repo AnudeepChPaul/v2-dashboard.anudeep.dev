@@ -1,0 +1,142 @@
+@include extjs-button-small-ui(
+    $ui: 'green',
+    $background-color: $green-color,
+    $border-color: $green-color
+);
+@include extjs-button-medium-ui(
+    $ui: 'green',
+    $background-color: $green-color,
+    $border-color: $green-color
+);
+@include extjs-button-large-ui(
+    $ui: 'green',
+    $background-color: $green-color,
+    $border-color: $green-color
+);
+@include extjs-button-toolbar-small-ui(
+    $ui: 'green',
+    $background-color: $green-color,
+    $border-color: $green-color
+);
+@include extjs-button-toolbar-medium-ui(
+    $ui: 'green',
+    $background-color: $green-color,
+    $border-color: $green-color
+);
+@include extjs-button-toolbar-large-ui(
+    $ui: 'green',
+    $background-color: $green-color,
+    $border-color: $green-color
+);
+
+@include extjs-button-small-ui(
+    $ui: 'red',
+    $color: $light-color,
+    $background-color: $red-color,
+    $border-color: $red-color
+);
+@include extjs-button-medium-ui(
+    $ui: 'red',
+    $color: $light-color,
+    $background-color: $red-color,
+    $border-color: $red-color
+);
+@include extjs-button-large-ui(
+    $ui: 'red',
+    $color: $light-color,
+    $background-color: $red-color,
+    $border-color: $red-color
+);
+@include extjs-button-toolbar-small-ui(
+    $ui: 'red',
+    $color: $light-color,
+    $background-color: $red-color,
+    $border-color: $red-color
+);
+@include extjs-button-toolbar-medium-ui(
+    $ui: 'red',
+    $color: $light-color,
+    $background-color: $red-color,
+    $border-color: $red-color
+);
+@include extjs-button-toolbar-large-ui(
+    $ui: 'red',
+    $color: $light-color,
+    $background-color: $red-color,
+    $border-color: $red-color
+);
+
+@include extjs-button-small-ui(
+    $ui: 'blue',
+    $color: $light-color,
+    $border-color: $blue-color,
+    $background-color: $blue-color
+);
+@include extjs-button-medium-ui(
+    $ui: 'blue',
+    $color: $light-color,
+    $border-color: $blue-color,
+    $background-color: $blue-color
+);
+@include extjs-button-large-ui(
+    $ui: 'blue',
+    $color: $light-color,
+    $border-color: $blue-color,
+    $background-color: $blue-color
+);
+@include extjs-button-toolbar-small-ui(
+    $ui: 'blue',
+    $color: $light-color,
+    $border-color: $blue-color,
+    $background-color: $blue-color
+);
+@include extjs-button-toolbar-medium-ui(
+    $ui: 'blue',
+    $color: $light-color,
+    $border-color: $blue-color,
+    $background-color: $blue-color
+);
+@include extjs-button-toolbar-large-ui(
+    $ui: 'blue',
+    $color: $light-color,
+    $border-color: $blue-color,
+    $background-color: $blue-color
+);
+
+
+@include extjs-button-small-ui(
+    $ui: 'default',
+    $color: $base-light-color,
+    $border-color: $base-color,
+    $background-color: $base-color
+);
+@include extjs-button-medium-ui(
+    $ui: 'default',
+    $color: $base-light-color,
+    $border-color: $base-color,
+    $background-color: $base-color
+);
+@include extjs-button-large-ui(
+    $ui: 'default',
+    $color: $base-light-color,
+    $border-color: $base-color,
+    $background-color: $base-color
+);
+@include extjs-button-toolbar-small-ui(
+    $ui: 'default',
+    $color: $base-light-color,
+    $border-color: $base-color,
+    $background-color: $base-color
+);
+@include extjs-button-toolbar-medium-ui(
+    $ui: 'default',
+    $color: $base-light-color,
+    $border-color: $base-color,
+    $background-color: $base-color
+);
+@include extjs-button-toolbar-large-ui(
+    $ui: 'default',
+    $color: $base-light-color,
+    $border-color: $base-color,
+    $background-color: $base-color
+);

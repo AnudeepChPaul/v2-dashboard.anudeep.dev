@@ -1,0 +1,24 @@
+// $grid-row-cell-background-color: $neutral-light-color;
+.#{$prefix}grid-item {
+  color: $grid-row-cell-color;
+  font: $grid-row-cell-font;
+  background-color: $neutral-light-color;
+}
+
+.#{$prefix}grid-with-row-lines {
+  .#{$prefix}grid-item:first-child {
+    border-color: $neutral-light-color;
+  }
+
+  .#{$prefix}grid-item {
+    &.#{$prefix}grid-item-selected {
+      background-color: $grid-row-cell-selected-border-color;
+    }
+  }
+}
+
+.#{$prefix}keyboard-mode {
+  .#{$prefix}view-item-focused {
+    outline: 2px solid $base-color !important;
+  }
+}

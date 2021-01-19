@@ -1,0 +1,40 @@
+.#{$prefix}project-details-list {
+  padding: 4px;
+  margin-bottom: 16px;
+
+  .#{$prefix}project-details-list-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .#{$prefix}project-details-list-button {
+    border: none;
+    cursor: pointer;
+  }
+
+  p {
+    margin-top: 4px;
+    margin-bottom: 0;
+  }
+
+  h3,
+  h5 {
+    margin-top: 4px;
+    margin-bottom: 0;
+  }
+}
+
+.#{$prefix}config-project-config {
+  .#{$prefix}config-project-config-panel {
+    .#{$prefix}panel-body-default {
+      overflow: hidden auto;
+    }
+  }
+}
+
+.udash-rating-picker-value,
+.udash-rating-picker-tracker {
+  color: $tan-color;
+}

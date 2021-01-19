@@ -1,0 +1,11 @@
+.#{$prefix}grid-cell-row-numberer {
+  background-color: $neutral-light-color;
+}
+
+.#{$prefix}grid-with-row-lines {
+  .#{$prefix}grid-item-selected {
+    .#{$prefix}grid-cell-row-numberer {
+      background-color: $grid-row-cell-selected-border-color;
+    }
+  }
+}

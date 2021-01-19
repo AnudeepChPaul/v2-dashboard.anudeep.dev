@@ -1,0 +1,13 @@
+// $grid-row-cell-background-color: $neutral-light-color;
+.#{$prefix}grid-item {
+  color: $grid-row-cell-color;
+  font: $grid-row-cell-font;
+  background-color: $neutral-light-color;
+}
+
+.dash-grid-with-row-lines {
+
+  .dash-grid-item:first-child {
+    border-color: $neutral-light-color;
+  }
+}

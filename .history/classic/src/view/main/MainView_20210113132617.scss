@@ -1,0 +1,33 @@
+$dash-base-color: "#404040";
+
+$panel-body-background-color: $dash-base-color;
+
+.#{$prefix}title-icon-matte {
+  font-family: "Font Awesome 5 Free";
+  color: #fff;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.#{$prefix}tab-icon-el-matte {
+  font-family: "Font Awesome 5 Free";
+  color: #acacac;
+
+  .#{$prefix}tab-over & {
+    color: #c4c4c4;
+  }
+
+  .#{$prefix}tab-active & {
+    color: #fff;
+  }
+}
+
+.#{$prefix}panel-header-title-matte > .#{$prefix}title-text-matte:after {
+  top: 30px;
+  right: -24px;
+}
+
+.u#{$prefix}-rating-picker-value,
+.u#{$prefix}-rating-picker-tracker {
+  color: $base-color;
+}

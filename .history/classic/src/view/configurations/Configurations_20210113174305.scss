@@ -1,0 +1,22 @@
+.dash-project-details-list {
+  padding: 4px;
+
+  p {
+    margin-top: 4px;
+    margin-bottom: 0;
+  }
+
+  h3,
+  h5 {
+    margin-top: 4px;
+    margin-bottom: 0;
+  }
+}
+
+.#{$prefix}config-project-config {
+  .#{$prefix}config-project-config-panel {
+    .#{$prefix}panel-body-default {
+      overflow: hidden auto;
+    }
+  }
+}

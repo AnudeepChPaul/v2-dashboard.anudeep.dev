@@ -1,0 +1,56 @@
+.global-app-loader {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+
+    .#{$prefix}mask {
+        height: 50%;
+    }
+    .#{$prefix}mask-msg {
+        border: 6px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 6px solid #1c3751;
+        background-color: transparent;
+        width: 80px;
+        height: 80px;
+        -webkit-animation: loadmaskspin 1.5s linear infinite;
+        animation: loadmaskspin 1.5s linear infinite;
+
+        .#{$prefix}mask-msg-text {
+            display: none;
+        }
+    }
+}
+
+/* Safari */
+@-webkit-keyframes loadmaskspin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes loadmaskspin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes loadmaskspin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

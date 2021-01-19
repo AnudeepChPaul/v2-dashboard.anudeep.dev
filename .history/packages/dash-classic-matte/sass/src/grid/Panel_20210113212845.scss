@@ -1,0 +1,31 @@
+.#{$prefix}grid-body {
+  border-width: 1px 1px 1px;
+}
+
+.#{$prefix}keyboard-mode {
+  .#{$prefix}grid-item-focused {
+    .#{$prefix}grid-cell-inner:before {
+      border: 1px solid transparent;
+    }
+  }
+}
+
+
+.#{$prefix}grid-item {
+  color: $grid-row-cell-color;
+  font: $grid-row-cell-font;
+  background-color: $neutral-light-color;
+}
+
+
+.#{$prefix}grid-with-row-lines {
+  .#{$prefix}grid-item:first-child {
+    border-color: $neutral-light-color;
+  }
+
+  .#{$prefix}grid-item {
+    &.#{$prefix}grid-item-selected {
+      background-color: $grid-row-cell-selected-border-color;
+    }
+  }
+}
